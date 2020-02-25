@@ -46,7 +46,7 @@
 				//scale the position to adjust for shader input and floor the values so we have whole numbers
 				float3 adjustedWorldPos = floor(i.worldPos / _Scale);
 				//add different dimensions 
-				float chessboard = adjustedWorldPos.x + adjustedWorldPos.y + adjustedWorldPos.z;
+				float chessboard = adjustedWorldPos.x + adjustedWorldPos.y;
 				//divide it by 2 and get the fractional part, resulting in a value of 0 for even and 0.5 for off numbers.
 				chessboard = frac(chessboard * 0.5);
 				//multiply it by 2 to make odd values white instead of grey
@@ -56,6 +56,16 @@
 				float4 color = lerp(_EvenColor, _OddColor, chessboard);
 				return color;
 			}
+
+			//fixed4 frag(v2f i) : SV_TARGET{
+			//	//add different dimensions 
+			//	float chessboard = floor(i.worldPos.x);
+			//	//divide it by 2 and get the fractional part, resulting in a value of 0 for even and 0.5 for odd numbers.
+			//	chessboard = frac(chessboard * 0.5);
+			//	//multiply it by 2 to make odd values white instead of grey
+			//	chessboard *= 2;
+			//	return chessboard;
+			//}
 
 			ENDCG
 		}
