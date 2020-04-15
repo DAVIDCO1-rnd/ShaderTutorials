@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Face Orientation"
+﻿Shader "Tutorial/02c_Face Orientation"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Screen Position"
+﻿Shader "Tutorial/02b_Screen Position"
 {
     Properties
     {

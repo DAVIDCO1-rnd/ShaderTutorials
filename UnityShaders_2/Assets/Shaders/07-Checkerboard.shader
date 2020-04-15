@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Checkerboard"
+﻿Shader "Tutorial/07_Checkerboard"
 {
     Properties
     {

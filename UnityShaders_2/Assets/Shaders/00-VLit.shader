@@ -1,4 +1,4 @@
-﻿Shader "Tutorial/Basic" {
+﻿Shader "Tutorial/00_Basic" {
     Properties {
         _Color ("Main Color", Color) = (1,0.5,0.5,1)
     }

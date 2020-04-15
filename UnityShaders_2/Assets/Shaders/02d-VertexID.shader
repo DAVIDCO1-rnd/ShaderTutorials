@@ -1,4 +1,4 @@
-﻿Shader "Unlit/VertexID"
+﻿Shader "Tutorial/02d_VertexID"
 {
     SubShader
     {

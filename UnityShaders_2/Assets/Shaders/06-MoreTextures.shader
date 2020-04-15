@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
-Shader "Unlit/More Textures"
+Shader "Tutorial/06_More Textures"
 {
     Properties {
         // three textures we'll use in the material

@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
-Shader "Unlit/SkyReflection Per Pixel"
+Shader "Tutorial/05_SkyReflection Per Pixel"
 {
     Properties {
         // normal map texture on the material,

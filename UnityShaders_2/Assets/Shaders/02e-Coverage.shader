@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Coverage"
+﻿Shader "Tutorial/02e_Coverage"
 {
     SubShader
     {

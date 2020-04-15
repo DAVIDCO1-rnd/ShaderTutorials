@@ -1,4 +1,4 @@
-﻿Shader "Lit/Diffuse With Ambient"
+﻿Shader "Tutorial/10_Diffuse With Ambient"
 {
     Properties
     {

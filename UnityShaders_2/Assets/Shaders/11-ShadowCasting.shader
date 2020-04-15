@@ -1,4 +1,4 @@
-﻿Shader "Lit/Shadow Casting"
+﻿Shader "Tutorial/11_Shadow Casting"
 {
     SubShader
     {

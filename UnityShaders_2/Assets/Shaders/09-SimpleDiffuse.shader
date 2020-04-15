@@ -1,4 +1,4 @@
-﻿Shader "Lit/Simple Diffuse"
+﻿Shader "Tutorial/09_Simple Diffuse"
 {
     Properties
     {

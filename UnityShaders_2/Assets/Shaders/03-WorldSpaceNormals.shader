@@ -1,4 +1,4 @@
-﻿Shader "Unlit/WorldSpaceNormals"
+﻿Shader "Tutorial/03_WorldSpaceNormals"
 {
     // no Properties block this time!
     SubShader

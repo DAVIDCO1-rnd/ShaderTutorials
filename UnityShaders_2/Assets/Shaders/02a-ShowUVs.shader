@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Show UVs"
+﻿Shader "Tutorial/02a_Show UVs"
 {
     SubShader
     {

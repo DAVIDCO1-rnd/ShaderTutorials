@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Triplanar"
+﻿Shader "Tutorial/08_Triplanar"
 {
     Properties
     {

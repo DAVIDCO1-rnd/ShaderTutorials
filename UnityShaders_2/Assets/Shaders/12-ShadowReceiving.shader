@@ -1,4 +1,4 @@
-﻿Shader "Lit/Diffuse With Shadows"
+﻿Shader "Tutorial/12_Diffuse With Shadows"
 {
     Properties
     {
