@@ -40,8 +40,8 @@
 
                 // checker value will be negative for 4x4 blocks of pixels
                 // in a checkerboard pattern
-                screenPos.xy = floor(screenPos.xy * 0.25) * 0.5;
-                float checker = -frac(screenPos.r + screenPos.g);
+                screenPos.xy = floor(screenPos.xy) * 0.2;
+                float checker = -frac(screenPos.x + screenPos.y);
 
                 // clip HLSL instruction stops rendering a pixel if value is negative
                 clip(checker);
