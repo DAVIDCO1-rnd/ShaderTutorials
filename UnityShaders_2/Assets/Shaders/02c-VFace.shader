@@ -28,7 +28,7 @@
 
             fixed4 frag (fixed facing : VFACE) : SV_Target
             {
-                // VFACE input positive for frontbaces,
+                // VFACE input positive for frontfaces,
                 // negative for backfaces
                 return facing > 0 ? _ColorFront : _ColorBack;
             }
