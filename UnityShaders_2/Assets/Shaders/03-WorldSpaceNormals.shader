@@ -11,7 +11,7 @@
             #include "UnityCG.cginc"
 
             struct v2f {
-                half3 worldNormal : TEXCOORD0;
+                half3 worldNormal : YOU_DONT_CARE_WHICH_SEMANTIC_I_PUT_HERE; // TEXCOORD0;
                 float4 pos : SV_POSITION;
             };
 
